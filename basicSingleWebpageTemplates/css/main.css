@@ -1,0 +1,17 @@
+/*This is the main.css file*/
+body{
+	font:normal normal normal 100%/1.5 sans-serif;
+	background: url(#) 0px/50% fixed;
+	margin: 0px;
+}
+#wrapper{
+	margin: 0 auto;
+	padding: 5px 10px;
+	position: relative;
+	width: 1124px;
+	height: 100%;
+	background: #8e79b1 fixed;
+}
+article, aside, figure, footer, header, main, menu, nav, section {
+	display: block;
+}

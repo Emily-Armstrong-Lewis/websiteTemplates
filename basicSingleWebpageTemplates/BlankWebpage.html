@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang=en>
   <head>
-    <title><!--Webpage title goes here--></title>
-	  <meta charset="UTF-8">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	  <meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title><!--Webpage title goes here--></title>
+    <!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+						<!--[if lt IE 9]>
+							<script>
+								var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+								var len = elementsArray.length;
+								for(i = 0; i < len; i++){
+								document.createElement(elementsArray[i]);
+							}
+							</script>
+						<![endif]-->
 	  <!--edit description, keywords, and author as necessary-->
 	  <meta name="description" content="coding examples">
 	  <meta name="keywords" content=" HTML, CSS, JAVASCRIPT, JQUERY">
 	  <meta name="author" content="Emily Lewis">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -18,7 +28,6 @@
 	  	</header>
 	  	<main>
 		    <!--Main-->
-			<!--This button is just place holder code I could connect js to-->
 		    <form action ="#" method="post">
 		    	<input type="button" id="btn" value="Click Me"></input>
 			</form>

@@ -15,28 +15,3 @@ body{
 article, aside, figure, footer, header, main, menu, nav, section {
 	display: block;
 }
-
-header{
-	text-align: center;
-	border-bottom: 1px solid #000;
-}
-nav ul{
-	list-style: none;
-}
-nav ul li{
-	display: inline-block;
-	
-}
-nav li a{
-	padding: 5px;
-}
-main{
-	padding: 5px;
-}
-
-footer{
-	text-align: center;
-	border-top: 1px solid #000;
-	height: 100%;
-	padding: 5px;
-}
